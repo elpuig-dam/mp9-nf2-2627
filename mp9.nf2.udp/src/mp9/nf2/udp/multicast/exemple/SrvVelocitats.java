@@ -32,7 +32,7 @@ public class SrvVelocitats {
 			socket.send(packet);
 		 
 			try {
-				Thread.sleep(50);
+				Thread.sleep(150);
 			} catch (InterruptedException ex) {
 				ex.getMessage();
 			}
